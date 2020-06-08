@@ -1,0 +1,54 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Let F divide CD in the ratio m:1.Then using section formulae,
+\begin{align}
+\vec{F} &= \frac{{{m\vec{C}} +\vec{B}}}{m+1}
+\end{align}
+%
+Also using \ref{eq:constr_e}
+\begin{align}
+\vec{E} &= \frac{{{k\vec{D}} +\vec{A}}}{k+1}
+\\
+\implies \vec{E} - \vec{F} &= \frac{{{k\vec{D}} +\vec{A}}}{k+1}-\frac{{{m\vec{C}} +\vec{B}}}{m+1}
+\label{eq:sol_EF}
+\end{align}
+If D is taken as the origin then $\vec{D} = \vec{0}$ . So \ref{eq:sol_EF} becomes
+\begin{align}
+\implies \vec{E} - \vec{F} = \frac{\vec{A}}{k+1}-\frac{{{m\vec{C}} +\vec{B}}}{m+1}
+\label{eq:sol_EF2}
+\end{align}
+
+\item AB is parallel to DC. So for some constant l
+\begin{align}
+\implies \vec{C}-\vec{D} &= l\brak{\vec{B}-\vec{A}}
+\\
+\implies \vec{C} &= l\brak{\vec{B}-\vec{A}}
+\label{eq:sol_C}
+\end{align}
+
+\item Substituting \ref{eq:sol_C} in \ref{eq:sol_EF2} We get
+\begin{align}
+\implies \vec{E} - \vec{F} = \frac{\vec{A}}{k+1}-\frac{{{ml\brak{\vec{B}-\vec{A}}} +\vec{B}}}{m+1}
+\\
+\implies \vec{E} - \vec{F} = \vec{A}\brak{\frac{1}{k+1} + \frac{lm}{m+1}} - \vec{B}\brak{\frac{ml+1}{m+1}}
+\label{eq:sol_EFinAB}
+\end{align}
+But $ EF \parallel AB$.So,For some w
+\begin{align}
+\implies \vec{E} - \vec{F} = w\brak{\vec{A}-\vec{B}}
+\label{eq:sol_EFinAB2}
+\end{align}
+
+Comparing \ref{eq:sol_EFinAB2} and \ref{eq:sol_EFinAB}. We have
+\begin{align}
+\frac{1}{k+1} + \frac{lm}{m+1} = \frac{ml+1}{m+1} = w
+\\
+\implies m+1+\brak{k+1}lm = \brak{lm+1}\brak{k+1} 
+\label{eq:sol_sol}
+\end{align}
+\ref{eq:sol_sol} must hold true for all values of l,k and m.Thus m = k
+\newline
+Hence F divides BC in ratio k:1, same as the ratio in which E divides AD.
+\end{enumerate}
