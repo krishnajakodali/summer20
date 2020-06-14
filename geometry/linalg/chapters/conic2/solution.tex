@@ -13,7 +13,7 @@ The vector form is
 \label{eq:vec_conic}
 \vec{x}^T \myvec{A & B/2\\B/2 & C}\vec{x}+ \myvec{D & E}\vec{x}+F=0
 \end{align}
-
+If $x_1$ is root of an equation ,Then $\brak{x-x_1}$ is a factor
 \item 
 \begin{align}
 \label{eq:alg_conic_a}
@@ -24,16 +24,18 @@ can be expressed according to \ref{eq:vec_conic} as
 \label{eq:vec_conic_a}
 \vec{x}^T \myvec{12 & 0\\0 & 0}\vec{x}+ \myvec{-7 & 0}\vec{x}+1=0
 \end{align}
-If $\myvec{k\\0}$ satisfies \ref{eq:vec_conic_a} then \brak{x-k} is a factor of \ref{eq:alg_conic_a}
+To find roots using \ref{eq:vec_conic_a}, substitute
 \begin{align}
+y=0
+\\
 \implies 
-12k^{2}-7k+1=0
+12x^{2}-7x+1=0
 \\
-\brak{3k-1}\brak{4k-1}=0
-\\
-k=\frac{1}{3}, \frac{1}{4}
-\\
-\brak{x-\frac{1}{3}}\brak{x-\frac{1}{4}}=12x^{2} - 7x + 1
+x=\frac{1}{3}, \frac{1}{4}
+\end{align}
+Hence $\brak{x-\frac{1}{3}}$ and $\brak{x-\frac{1}{4}}$ are the factors
+\begin{align}
+\implies \brak{3x-1}\brak{4x-1}=12x^{2} - 7x + 1 
 \end{align}
 
 The following code sketches the graph of \ref{eq:alg_conic_a} in figure \ref{fig:conic2a}
@@ -58,16 +60,12 @@ can be expressed according to \ref{eq:vec_conic} as
 \label{eq:vec_conic_b}
 \vec{x}^T \myvec{6 & 0\\0 & 0}\vec{x}+ \myvec{5 & 0}\vec{x} -6 =0
 \end{align}
-If $\vec{x}=\myvec{k\\0}$ satisfies \ref{eq:vec_conic_b} then \brak{x-k} is a factor of \ref{eq:alg_conic_b}
+Substituting $y=0$ in equation \ref{eq:vec_conic_b} to find roots,
 \begin{align}
 \implies 
-6k^{2}+5k-6=0
+6x^{2}+5x-6=0
 \\
-\brak{2k+3}\brak{3k-2}=0
-\\
-k=\frac{-3}{2}, \frac{2}{3}
-\\
-c\brak{x-\frac{-3}{2}}\brak{x-\frac{2}{3}}= 6x^{2} + 5x -6
+x=\frac{-3}{2}, \frac{2}{3}
 \\
 \brak{2x+3}\brak{3x-2}= 6x^{2} + 5x -6
 \end{align}
@@ -92,14 +90,12 @@ can be expressed according to \ref{eq:vec_conic} as
 \label{eq:vec_conic_c}
 \vec{x}^T \myvec{2 & 0\\0 & 0}\vec{x}+ \myvec{7 & 0}\vec{x} +3 =0
 \end{align}
-If $\vec{x}=\myvec{k\\0}$ satisfies \ref{eq:vec_conic_c} then \brak{x-k} is a factor of \ref{eq:alg_conic_c}
+Substituting $y=0$ in equation \ref{eq:vec_conic_c},
 \begin{align}
 \implies 
-2k^{2}+7k+3=0
+2x^{2}+7x+3=0
 \\
-\brak{2k+1}\brak{k+3}=0
-\\
-k=\frac{-1}{2},-3
+x=\frac{-1}{2},-3
 \\
 \brak{2x+1}\brak{x+3}= 2x^{2} + 7x +3
 \end{align}
@@ -126,14 +122,12 @@ can be expressed according to \ref{eq:vec_conic} as
 \label{eq:vec_conic_d}
 \vec{x}^T \myvec{3 & 0\\0 & 0}\vec{x}+ \myvec{-1 & 0}\vec{x} -4 =0
 \end{align}
-If $\vec{x}=\myvec{k\\0}$ satisfies \ref{eq:vec_conic_d} then \brak{x-k} is a factor of \ref{eq:alg_conic_d}
+Substituting $y=0$ in equation \ref{eq:vec_conic_c},
 \begin{align}
 \implies 
-3k^{2}-k-4=0
+3x^{2}-x-4=0
 \\
-\brak{3k-4}\brak{k+1}=0
-\\
-k=\frac{4}{3},-1
+x=\frac{4}{3},-1
 \\
 \brak{3x-4}\brak{x+1}= 3x^{2} -x -4
 \end{align}

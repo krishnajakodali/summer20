@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.28)  12 JUN 2020 20:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.28)  14 JUN 2020 22:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1653,14 +1653,29 @@ Package pdftex.def Info: ./codes/quad/pyfigs/quad-eps-converted-to.pdf  used on
  input line 20.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 
-Overfull \hbox (2.71658pt too wide) detected at line 32
+Overfull \hbox (2.71658pt too wide) detected at line 31
 []
  []
 
-) (./chapters/line/comp/problem.tex) (./chapters/line/comp/solution.tex)
-(./chapters/line/towns/problem.tex) (./chapters/line/towns/solution.tex
-[2 <./codes/triangle/pyfigs/triangle-eps-converted-to.pdf> <./codes/quad/pyfigs
-/quad-eps-converted-to.pdf>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (6.26193pt too wide) detected at line 50
+[]
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 50--52
+\OT1/txr/m/n/12 Substituting the above val-ues in equa-tion
+ []
+
+) (./chapters/line/comp/problem.tex) (./chapters/line/comp/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./codes/triangle/pyfigs/triangle-eps-converted-to.pdf> <./codes/quad/pyfig
+s/quad-eps-converted-to.pdf>]) (./chapters/line/towns/problem.tex)
+(./chapters/line/towns/solution.tex
 Package epstopdf Info: Source file: <./codes/line/towns/pyfigs/towns.eps>
 (epstopdf)                    date: 2020-06-12 16:07:28
 (epstopdf)                    size: 17316 bytes
@@ -1672,7 +1687,7 @@ ted-to.pdf>
 towns-eps-converted-to.pdf ./codes/line/towns/pyfigs/towns.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/line/towns/pyfigs/towns-eps-converted-to.pdf, id=362, 462.52798pt x 34
+<./codes/line/towns/pyfigs/towns-eps-converted-to.pdf, id=360, 462.52798pt x 34
 6.89601pt>
 File: ./codes/line/towns/pyfigs/towns-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1693,7 +1708,7 @@ nverted-to.pdf>
 s/section-eps-converted-to.pdf ./codes/line/section/pyfigs/section.eps>
 (epstopdf)             \includegraphics on input line 28.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/line/section/pyfigs/section-eps-converted-to.pdf, id=364, 462.52798pt 
+<./codes/line/section/pyfigs/section-eps-converted-to.pdf, id=362, 462.52798pt 
 x 346.89601pt>
 File: ./codes/line/section/pyfigs/section-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1707,41 +1722,54 @@ tion.7.1}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.29 \begin{align}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{equation.7.2}) has been already used, duplicate ignored
+l.5 \item A
+            point $\vec{c}$ lying on the linepdfTeX warning (ext4): destination
+ with the same identifier (name{equation.7.2}) has been already used, duplicate
+ ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.29 \begin{align}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{equation.7.3}) has been already used, duplicate ignored
+l.5 \item A
+            point $\vec{c}$ lying on the linepdfTeX warning (ext4): destination
+ with the same identifier (name{equation.7.3}) has been already used, duplicate
+ ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.29 \begin{align}
-                   <./codes/line/towns/pyfigs/towns-eps-converted-to.pdf> <./co
-des/line/section/pyfigs/section-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <./codes/line/pointonline/pyfigs/pointonlin
-e.eps>
-(epstopdf)                    date: 2020-06-12 16:07:28
-(epstopdf)                    size: 35820 bytes
-(epstopdf)             Output file: <./codes/line/pointonline/pyfigs/pointonlin
-e-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-06-12 16:07:28
-(epstopdf)                    size: 17465 bytes
-(epstopdf)             Command: <repstopdf --outfile=./codes/line/pointonline/p
-yfigs/pointonline-eps-converted-to.pdf ./codes/line/pointonline/pyfigs/pointonl
-ine.eps>
-(epstopdf)             \includegraphics on input line 45.
+l.5 \item A
+            point $\vec{c}$ lying on the line <./codes/line/towns/pyfigs/towns-
+eps-converted-to.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./codes/line/section/pyfigs/section-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./codes/line/pointonline2/pyfigs/pointonli
+ne.eps>
+(epstopdf)                    date: 2020-06-14 21:58:05
+(epstopdf)                    size: 22218 bytes
+(epstopdf)             Output file: <./codes/line/pointonline2/pyfigs/pointonli
+ne-eps-converted-to.pdf>
+(epstopdf)                    date: 2020-06-14 22:01:52
+(epstopdf)                    size: 10160 bytes
+(epstopdf)             Command: <repstopdf --outfile=./codes/line/pointonline2/
+pyfigs/pointonline-eps-converted-to.pdf ./codes/line/pointonline2/pyfigs/pointo
+nline.eps>
+(epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/line/pointonline/pyfigs/pointonline-eps-converted-to.pdf, id=439, 462.
-52798pt x 346.89601pt>
-File: ./codes/line/pointonline/pyfigs/pointonline-eps-converted-to.pdf Graphic 
-file (type pdf)
-<use ./codes/line/pointonline/pyfigs/pointonline-eps-converted-to.pdf>
-Package pdftex.def Info: ./codes/line/pointonline/pyfigs/pointonline-eps-conver
-ted-to.pdf  used on input line 45.
+<./codes/line/pointonline2/pyfigs/pointonline-eps-converted-to.pdf, id=470, 462
+.52798pt x 346.89601pt>
+File: ./codes/line/pointonline2/pyfigs/pointonline-eps-converted-to.pdf Graphic
+ file (type pdf)
+<use ./codes/line/pointonline2/pyfigs/pointonline-eps-converted-to.pdf>
+Package pdftex.def Info: ./codes/line/pointonline2/pyfigs/pointonline-eps-conve
+rted-to.pdf  used on input line 88.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 )
 (./chapters/line/rain/problem.tex) (./chapters/line/rain/solution.tex
@@ -1756,7 +1784,7 @@ d-to.pdf>
 ain-eps-converted-to.pdf ./codes/line/rain/pyfigs/rain.eps>
 (epstopdf)             \includegraphics on input line 27.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/line/rain/pyfigs/rain-eps-converted-to.pdf, id=441, 462.52798pt x 346.
+<./codes/line/rain/pyfigs/rain-eps-converted-to.pdf, id=472, 462.52798pt x 346.
 89601pt>
 File: ./codes/line/rain/pyfigs/rain-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1765,10 +1793,10 @@ Package pdftex.def Info: ./codes/line/rain/pyfigs/rain-eps-converted-to.pdf  us
 ed on input line 27.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 )
-(./chapters/line/matrix/problem.tex) (./chapters/line/matrix/solution.tex
-[4 <./codes/line/pointonline/pyfigs/pointonline-eps-converted-to.pdf> <./codes/
-line/rain/pyfigs/rain-eps-converted-to.pdf>]) (./chapters/line/det/problem.tex)
-(./chapters/line/det/solution.tex) (./chapters/line/ineq/problem.tex)
+(./chapters/line/matrix/problem.tex) (./chapters/line/matrix/solution.tex)
+(./chapters/line/det/problem.tex) (./chapters/line/det/solution.tex [5 <./codes
+/line/pointonline2/pyfigs/pointonline-eps-converted-to.pdf> <./codes/line/rain/
+pyfigs/rain-eps-converted-to.pdf>]) (./chapters/line/ineq/problem.tex)
 (./chapters/line/ineq/solution.tex
 Package epstopdf Info: Source file: <./codes/line/ineq/pyfigs/ineq.eps>
 (epstopdf)                    date: 2020-06-12 16:06:17
@@ -1781,7 +1809,7 @@ d-to.pdf>
 neq-eps-converted-to.pdf ./codes/line/ineq/pyfigs/ineq.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/line/ineq/pyfigs/ineq-eps-converted-to.pdf, id=522, 462.52798pt x 346.
+<./codes/line/ineq/pyfigs/ineq-eps-converted-to.pdf, id=538, 462.52798pt x 346.
 89601pt>
 File: ./codes/line/ineq/pyfigs/ineq-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1796,20 +1824,23 @@ ed on input line 33.
 \gnumericMultiRowLength=\skip87
 \gnumericColA=\skip88
 \gnumericColB=\skip89
-) [5pdfTeX warning (ext4): destination with the same identifier (name{equation.
-14.1}) has been already used, duplicate ignored
+)
+(./tables/median/out.tex)) (./chapters/line/median/solution.tex [6pdfTeX warnin
+g (ext4): destination with the same identifier (name{equation.17.1}) has been a
+lready used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.32 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.17.1}) has been already used, duplicate ignored
+l.5 \item S
+           ubstituting \ref{eq:pointd} in \ref{eq:centr} we getpdfTeX warning (
+ext4): destination with the same identifier (name{equation.20.1}) has been alre
+ady used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.32 \end{align}
-                 <./codes/line/ineq/pyfigs/ineq-eps-converted-to.pdf>]
-(./tables/median/out.tex)) (./chapters/line/median/solution.tex
+l.5 \item S
+           ubstituting \ref{eq:pointd} in \ref{eq:centr} we get <./codes/line/i
+neq/pyfigs/ineq-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./codes/line/median/pyfigs/median.eps>
 (epstopdf)                    date: 2020-06-12 16:07:28
 (epstopdf)                    size: 29446 bytes
@@ -1821,7 +1852,7 @@ erted-to.pdf>
 /median-eps-converted-to.pdf ./codes/line/median/pyfigs/median.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/line/median/pyfigs/median-eps-converted-to.pdf, id=591, 462.52798pt x 
+<./codes/line/median/pyfigs/median-eps-converted-to.pdf, id=606, 462.52798pt x 
 346.89601pt>
 File: ./codes/line/median/pyfigs/median-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1829,17 +1860,8 @@ File: ./codes/line/median/pyfigs/median-eps-converted-to.pdf Graphic file (type
 Package pdftex.def Info: ./codes/line/median/pyfigs/median-eps-converted-to.pdf
   used on input line 16.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-)
-(./chapters/circle1/problem.tex) (./chapters/circle1/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6pdfTeX warning (ext4): destination with the same identifier (name{equation.2
-1.1}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.47 \end{align}
-                 <./codes/line/median/pyfigs/median-eps-converted-to.pdf>]
+) (./chapters/circle1/problem.tex)
+(./chapters/circle1/solution.tex
 Package epstopdf Info: Source file: <./codes/circle1/pyfigs/circle1.eps>
 (epstopdf)                    date: 2020-06-11 21:27:22
 (epstopdf)                    size: 24820 bytes
@@ -1851,7 +1873,7 @@ ed-to.pdf>
 cle1-eps-converted-to.pdf ./codes/circle1/pyfigs/circle1.eps>
 (epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/circle1/pyfigs/circle1-eps-converted-to.pdf, id=650, 462.52798pt x 346
+<./codes/circle1/pyfigs/circle1-eps-converted-to.pdf, id=612, 462.52798pt x 346
 .89601pt>
 File: ./codes/circle1/pyfigs/circle1-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1859,33 +1881,17 @@ f)
 Package pdftex.def Info: ./codes/circle1/pyfigs/circle1-eps-converted-to.pdf  u
 sed on input line 60.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-)
-(./chapters/circle2/problem.texpdfTeX warning (ext4): destination with the same
- identifier (name{equation.22.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
+) (./chapters/circle2/problem.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7pdfTeX warning (ext4): destination with the same identifier (name{equation.2
+4.1}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
 l.12 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.22.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.12 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.22.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.12 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.22.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.12 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.22.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.12 \end{align}
-                ) (./chapters/circle2/solution.tex
+                 <./codes/line/median/pyfigs/median-eps-converted-to.pdf>])
+(./chapters/circle2/solution.tex
 Package epstopdf Info: Source file: <./codes/circle2/pyfigs/circle2a.eps>
 (epstopdf)                    date: 2020-06-12 13:45:30
 (epstopdf)                    size: 22793 bytes
@@ -1897,7 +1903,7 @@ ted-to.pdf>
 cle2a-eps-converted-to.pdf ./codes/circle2/pyfigs/circle2a.eps>
 (epstopdf)             \includegraphics on input line 24.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/circle2/pyfigs/circle2a-eps-converted-to.pdf, id=654, 462.52798pt x 34
+<./codes/circle2/pyfigs/circle2a-eps-converted-to.pdf, id=673, 462.52798pt x 34
 6.89601pt>
 File: ./codes/circle2/pyfigs/circle2a-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1916,7 +1922,7 @@ ted-to.pdf>
 cle2b-eps-converted-to.pdf ./codes/circle2/pyfigs/circle2b.eps>
 (epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/circle2/pyfigs/circle2b-eps-converted-to.pdf, id=658, 462.52798pt x 34
+<./codes/circle2/pyfigs/circle2b-eps-converted-to.pdf, id=677, 462.52798pt x 34
 6.89601pt>
 File: ./codes/circle2/pyfigs/circle2b-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1935,7 +1941,7 @@ ted-to.pdf>
 cle2c-eps-converted-to.pdf ./codes/circle2/pyfigs/circle2c.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/circle2/pyfigs/circle2c-eps-converted-to.pdf, id=662, 462.52798pt x 34
+<./codes/circle2/pyfigs/circle2c-eps-converted-to.pdf, id=681, 462.52798pt x 34
 6.89601pt>
 File: ./codes/circle2/pyfigs/circle2c-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1943,8 +1949,39 @@ df)
 Package pdftex.def Info: ./codes/circle2/pyfigs/circle2c-eps-converted-to.pdf  
 used on input line 57.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
- [7 <./codes/circle1/pyfigs/circle1-eps-converted-to.pdf> <./codes/circle2/pyfi
-gs/circle2a-eps-converted-to.pdf>]
+ [8pdfTeX warning (ext4): destination with the same identifier (name{equation.2
+5.1}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.67 \end{align}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{equation.25.2}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.67 \end{align}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{equation.25.3}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.67 \end{align}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{equation.25.4}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.67 \end{align}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{equation.25.5}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.67 \end{align}
+                 <./codes/circle1/pyfigs/circle1-eps-converted-to.pdf> <./codes
+/circle2/pyfigs/circle2a-eps-converted-to.pdf> <./codes/circle2/pyfigs/circle2b
+-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./codes/circle2/pyfigs/circle2d.eps>
 (epstopdf)                    date: 2020-06-12 13:48:49
 (epstopdf)                    size: 24098 bytes
@@ -1956,7 +1993,7 @@ ted-to.pdf>
 cle2d-eps-converted-to.pdf ./codes/circle2/pyfigs/circle2d.eps>
 (epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/circle2/pyfigs/circle2d-eps-converted-to.pdf, id=751, 462.52798pt x 34
+<./codes/circle2/pyfigs/circle2d-eps-converted-to.pdf, id=790, 462.52798pt x 34
 6.89601pt>
 File: ./codes/circle2/pyfigs/circle2d-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1975,7 +2012,7 @@ ted-to.pdf>
 cle2e-eps-converted-to.pdf ./codes/circle2/pyfigs/circle2e.eps>
 (epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/circle2/pyfigs/circle2e-eps-converted-to.pdf, id=755, 462.52798pt x 34
+<./codes/circle2/pyfigs/circle2e-eps-converted-to.pdf, id=794, 462.52798pt x 34
 6.89601pt>
 File: ./codes/circle2/pyfigs/circle2e-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1983,16 +2020,8 @@ df)
 Package pdftex.def Info: ./codes/circle2/pyfigs/circle2e-eps-converted-to.pdf  
 used on input line 98.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-) (./chapters/conic1/problem.tex) (./chapters/conic1/solution.tex [8pdfTeX warn
-ing (ext4): destination with the same identifier (name{equation.28.1}) has been
- already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.15 \end{align}
-                 <./codes/circle2/pyfigs/circle2b-eps-converted-to.pdf> <./code
-s/circle2/pyfigs/circle2c-eps-converted-to.pdf> <./codes/circle2/pyfigs/circle2
-d-eps-converted-to.pdf> <./codes/circle2/pyfigs/circle2e-eps-converted-to.pdf>]
+) (./chapters/conic1/problem.tex)
+(./chapters/conic1/solution.tex
 Package epstopdf Info: Source file: <./codes/conic1/pyfigs/conic1a.eps>
 (epstopdf)                    date: 2020-06-12 16:39:22
 (epstopdf)                    size: 20758 bytes
@@ -2004,7 +2033,7 @@ d-to.pdf>
 c1a-eps-converted-to.pdf ./codes/conic1/pyfigs/conic1a.eps>
 (epstopdf)             \includegraphics on input line 22.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/conic1/pyfigs/conic1a-eps-converted-to.pdf, id=882, 462.52798pt x 346.
+<./codes/conic1/pyfigs/conic1a-eps-converted-to.pdf, id=797, 462.52798pt x 346.
 89601pt>
 File: ./codes/conic1/pyfigs/conic1a-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2012,6 +2041,15 @@ File: ./codes/conic1/pyfigs/conic1a-eps-converted-to.pdf Graphic file (type pdf
 Package pdftex.def Info: ./codes/conic1/pyfigs/conic1a-eps-converted-to.pdf  us
 ed on input line 22.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+ [9pdfTeX warning (ext4): destination with the same identifier (name{equation.3
+1.1}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.38 \end{align}
+                 <./codes/circle2/pyfigs/circle2c-eps-converted-to.pdf> <./code
+s/circle2/pyfigs/circle2d-eps-converted-to.pdf> <./codes/circle2/pyfigs/circle2
+e-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./codes/conic1/pyfigs/conic1b.eps>
 (epstopdf)                    date: 2020-06-12 16:40:50
 (epstopdf)                    size: 21242 bytes
@@ -2023,7 +2061,7 @@ d-to.pdf>
 c1b-eps-converted-to.pdf ./codes/conic1/pyfigs/conic1b.eps>
 (epstopdf)             \includegraphics on input line 45.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/conic1/pyfigs/conic1b-eps-converted-to.pdf, id=885, 462.52798pt x 346.
+<./codes/conic1/pyfigs/conic1b-eps-converted-to.pdf, id=906, 462.52798pt x 346.
 89601pt>
 File: ./codes/conic1/pyfigs/conic1b-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2036,117 +2074,113 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
 (./chapters/conic2/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9pdfTeX warning (ext4): destination with the same identifier (name{equation.3
-0.1}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.37 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.30.2}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.37 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.30.3}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.37 \end{align}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{equation.30.4}) has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.37 \end{align}
-                 <./codes/conic1/pyfigs/conic1a-eps-converted-to.pdf> <./codes/
-conic1/pyfigs/conic1b-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./codes/conic2/pyfigs/conic2a.eps>
-(epstopdf)                    date: 2020-06-12 20:28:14
+(epstopdf)                    date: 2020-06-14 18:37:31
 (epstopdf)                    size: 22005 bytes
 (epstopdf)             Output file: <./codes/conic2/pyfigs/conic2a-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2020-06-12 20:38:00
+(epstopdf)                    date: 2020-06-14 19:00:33
 (epstopdf)                    size: 10896 bytes
 (epstopdf)             Command: <repstopdf --outfile=./codes/conic2/pyfigs/coni
 c2a-eps-converted-to.pdf ./codes/conic2/pyfigs/conic2a.eps>
-(epstopdf)             \includegraphics on input line 45.
+(epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/conic2/pyfigs/conic2a-eps-converted-to.pdf, id=960, 462.52798pt x 346.
+<./codes/conic2/pyfigs/conic2a-eps-converted-to.pdf, id=912, 462.52798pt x 346.
 89601pt>
 File: ./codes/conic2/pyfigs/conic2a-eps-converted-to.pdf Graphic file (type pdf
 )
 <use ./codes/conic2/pyfigs/conic2a-eps-converted-to.pdf>
 Package pdftex.def Info: ./codes/conic2/pyfigs/conic2a-eps-converted-to.pdf  us
-ed on input line 45.
+ed on input line 47.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+ [10pdfTeX warning (ext4): destination with the same identifier (name{equation.
+33.1}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.71 \end{align}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{equation.33.2}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.71 \end{align}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{equation.33.3}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.71 \end{align}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{equation.33.4}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.71 \end{align}
+                 <./codes/conic1/pyfigs/conic1a-eps-converted-to.pdf> <./codes/
+conic1/pyfigs/conic1b-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./codes/conic2/pyfigs/conic2b.eps>
-(epstopdf)                    date: 2020-06-12 20:29:48
+(epstopdf)                    date: 2020-06-14 18:38:45
 (epstopdf)                    size: 21834 bytes
 (epstopdf)             Output file: <./codes/conic2/pyfigs/conic2b-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2020-06-12 20:38:01
-(epstopdf)                    size: 10561 bytes
+(epstopdf)                    date: 2020-06-14 19:00:35
+(epstopdf)                    size: 10560 bytes
 (epstopdf)             Command: <repstopdf --outfile=./codes/conic2/pyfigs/coni
 c2b-eps-converted-to.pdf ./codes/conic2/pyfigs/conic2b.eps>
-(epstopdf)             \includegraphics on input line 80.
+(epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/conic2/pyfigs/conic2b-eps-converted-to.pdf, id=966, 462.52798pt x 346.
+<./codes/conic2/pyfigs/conic2b-eps-converted-to.pdf, id=986, 462.52798pt x 346.
 89601pt>
 File: ./codes/conic2/pyfigs/conic2b-eps-converted-to.pdf Graphic file (type pdf
 )
 <use ./codes/conic2/pyfigs/conic2b-eps-converted-to.pdf>
 Package pdftex.def Info: ./codes/conic2/pyfigs/conic2b-eps-converted-to.pdf  us
-ed on input line 80.
+ed on input line 78.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
 Package epstopdf Info: Source file: <./codes/conic2/pyfigs/conic2c.eps>
-(epstopdf)                    date: 2020-06-12 20:32:53
-(epstopdf)                    size: 22353 bytes
+(epstopdf)                    date: 2020-06-14 18:40:12
+(epstopdf)                    size: 21069 bytes
 (epstopdf)             Output file: <./codes/conic2/pyfigs/conic2c-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2020-06-12 20:38:03
-(epstopdf)                    size: 10801 bytes
+(epstopdf)                    date: 2020-06-14 19:00:37
+(epstopdf)                    size: 10582 bytes
 (epstopdf)             Command: <repstopdf --outfile=./codes/conic2/pyfigs/coni
 c2c-eps-converted-to.pdf ./codes/conic2/pyfigs/conic2c.eps>
-(epstopdf)             \includegraphics on input line 113.
+(epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/conic2/pyfigs/conic2c-eps-converted-to.pdf, id=972, 462.52798pt x 346.
+<./codes/conic2/pyfigs/conic2c-eps-converted-to.pdf, id=991, 462.52798pt x 346.
 89601pt>
 File: ./codes/conic2/pyfigs/conic2c-eps-converted-to.pdf Graphic file (type pdf
 )
 <use ./codes/conic2/pyfigs/conic2c-eps-converted-to.pdf>
 Package pdftex.def Info: ./codes/conic2/pyfigs/conic2c-eps-converted-to.pdf  us
-ed on input line 113.
+ed on input line 109.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
- [10 <./codes/conic2/pyfigs/conic2a-eps-converted-to.pdf> <./codes/conic2/pyfig
-s/conic2b-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./codes/conic2/pyfigs/conic2d.eps>
-(epstopdf)                    date: 2020-06-12 20:34:20
+(epstopdf)                    date: 2020-06-14 18:41:00
 (epstopdf)                    size: 20885 bytes
 (epstopdf)             Output file: <./codes/conic2/pyfigs/conic2d-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2020-06-12 20:38:04
+(epstopdf)                    date: 2020-06-14 19:00:39
 (epstopdf)                    size: 9877 bytes
 (epstopdf)             Command: <repstopdf --outfile=./codes/conic2/pyfigs/coni
 c2d-eps-converted-to.pdf ./codes/conic2/pyfigs/conic2d.eps>
-(epstopdf)             \includegraphics on input line 147.
+(epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
-<./codes/conic2/pyfigs/conic2d-eps-converted-to.pdf, id=1058, 462.52798pt x 346
-.89601pt>
+<./codes/conic2/pyfigs/conic2d-eps-converted-to.pdf, id=996, 462.52798pt x 346.
+89601pt>
 File: ./codes/conic2/pyfigs/conic2d-eps-converted-to.pdf Graphic file (type pdf
 )
 <use ./codes/conic2/pyfigs/conic2d-eps-converted-to.pdf>
 Package pdftex.def Info: ./codes/conic2/pyfigs/conic2d-eps-converted-to.pdf  us
-ed on input line 147.
+ed on input line 141.
 (pdftex.def)             Requested size: 252.0pt x 189.00429pt.
-)
-[11
+) [11 <./codes/conic2/pyfigs/conic2a-eps-converted-to.pdf> <./codes/conic2/pyfi
+gs/conic2b-eps-converted-to.pdf> <./codes/conic2/pyfigs/conic2c-eps-converted-t
+o.pdf>] [12
 
- <./codes/conic2/pyfigs/conic2c-eps-converted-to.pdf> <./codes/conic2/pyfigs/co
-nic2d-eps-converted-to.pdf>]
+ <./codes/conic2/pyfigs/conic2d-eps-converted-to.pdf>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
  (./document.aux)
@@ -2157,10 +2191,10 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
  ) 
 Here is how much of TeX's memory you used:
- 40666 strings out of 481239
- 918166 string characters out of 5920377
- 1319758 words of memory out of 5000000
- 54723 multiletter control sequences out of 15000+600000
+ 40691 strings out of 481239
+ 918469 string characters out of 5920377
+ 1323944 words of memory out of 5000000
+ 54726 multiletter control sequences out of 15000+600000
  600094 words of font info for 159 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,20n,91p,500b,1152s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2173,10 +2207,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on document.pdf (11 pages, 269919 bytes).
+Output written on document.pdf (12 pages, 264451 bytes).
 PDF statistics:
- 1206 PDF objects out of 1440 (max. 8388607)
- 757 compressed objects within 8 object streams
- 280 named destinations out of 1000 (max. 500000)
+ 1215 PDF objects out of 1440 (max. 8388607)
+ 781 compressed objects within 8 object streams
+ 302 named destinations out of 1000 (max. 500000)
  601 words of extra memory for PDF output out of 10000 (max. 10000000)
 

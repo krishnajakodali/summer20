@@ -27,7 +27,29 @@ codes/quad/quad.py
 Ar\brak{\triangle ABC} + Ar\brak{\triangle BCD}
 \\
 \frac{1}{2} \norm{\brak{\vec{A}-\vec{B}}\times \brak{\vec{A}-\vec{D}}} + \frac{1}{2} \norm{{\brak{\vec{C}-\vec{B}}} \times{\brak{\vec{C}-\vec{D}}}}
+\label{eq:quad_area}
+\end{align}
+For two vectors $\vec{a} = \myvec{a_1\\a_2}$ and $\vec{b} = \myvec{b_1\\b_2}$
+\begin{align}
+\label{eq:cross_product}
+\norm{\vec{a} \times \vec{b}} = |a_1 b_2- a_2 b_1|
 \\
-=60.5 sq.units
+\vec{A}-\vec{B} = \myvec{-4\\-2}
+\\
+\vec{A}-\vec{D} = \myvec{0\\7}
+\\
+\vec{C}-\vec{B} = \myvec{5\\-12}
+\\
+\vec{C}-\vec{D} = \myvec{9\\-3}
+\end{align}
+Using \ref{eq:cross_product}
+\begin{align}
+\frac{1}{2} \norm{\brak{\vec{A}-\vec{B}}\times \brak{\vec{A}-\vec{D}}} = \frac{1}{2} |\brak{-28}| =14
+\\
+\frac{1}{2} \norm{\brak{\vec{C}-\vec{B}} \times \brak{\vec{C}-\vec{D}}} = \frac{1}{2} |\brak{-15+108}|=46.5
+\end{align}
+Substituting the above values in equation \ref{eq:quad_area},We get
+\begin{align}
+Area = 14 + 46.5 = 60.5 sq.units
 \end{align}
 \end{enumerate}

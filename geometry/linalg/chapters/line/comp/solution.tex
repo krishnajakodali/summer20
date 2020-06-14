@@ -2,18 +2,16 @@
 \begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
 \numberwithin{equation}{enumi}
 
-\item Complex number $\myvec{a\\b}$ is written as a+ib where 
+\item Complex number $\myvec{a\\b}$ is expressed as a matrix as 
 \begin{align}
-i=\sqrt{-1}
-\\
-\implies i^{2}=-1
+\myvec{a\\b} = \myvec{a & -b\\ b & a}
 \end{align}
 
-If x+iy is the multiplicative inverse of  a+ib, Then
+If complex number $\myvec{x\\y}$ is the multiplicative inverse of  $\myvec{a \\b}$, Then their product must be complex number $\myvec{1\\0}$
 \begin{align}
-\brak{x+iy}\brak{a+ib}=1
+\myvec{a & -b\\b & a}\myvec{x & -y\\y & x} = \myvec{1 & 0\\ 0 & 1}
 \\
-\implies \brak{ax-by}+i\brak{bx+ay}=1
+\implies \myvec{ax-by & -\brak{bx+ay}\\ bx+ay & ax-by} = \myvec{1 & 0\\ 0 & 1} 
 \\
 \implies ax-by=1
 \label{eq:comp1}
