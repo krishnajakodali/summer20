@@ -1,0 +1,40 @@
+Let X be the random variable representing the number that arrow points
+\begin{align}
+X \epsilon \{1,2,3,4,5,6,7,8\}
+\end{align}
+Since all events are equally likely,
+\begin{align}
+\pr{X=x}=\begin{cases}
+	\frac{1}{8}& x=1,2,3,4,5,6,7,8\\
+	0 & otherwise
+	\end{cases}
+\end{align}
+\brak{i}The probability that the outcome is 8 is 
+\begin{align}
+\pr{X=8} = \frac{1}{8}
+\end{align}
+
+\brak{ii}Probability of occurance of odd numbers is
+\begin{align}
+\pr{X=1}+\pr{X=3}+\pr{X=5}+\pr{X=7}
+ \\
+\implies 4 \times \frac{1}{8}=\frac{4}{8}=\frac{1}{2}
+\end{align}
+\brak{iii}Probability of arrow pointing at a number greater than 2 is
+\begin{align}
+\pr{X > 2}=1 -\pr{X < 2} 
+\\
+\implies 1-\brak{\pr{X=1}+\pr{X=2}}
+\\
+\implies 1-\frac{2}{8}=\frac{3}{4}
+\end{align}
+ \brak{iv} Probability of arrow pointing at a value less than 9 is
+\begin{align}
+\pr{X < 9} =\frac{8}{8}=1
+\end{align}
+
+The python code for the distribution is
+\begin{lstlisting}
+./prob/codes/chance.py
+\end{lstlisting}
+The above code checks occurance of each of these events when the arrow is spinned 100,000 times.

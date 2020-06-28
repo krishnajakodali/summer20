@@ -1,0 +1,35 @@
+Let X be the random variable representing the outcome when the dice is thrown
+\begin{align}
+X \epsilon \{1,2,3,4,5,6\}
+\end{align}
+Since all events are equally likely,
+\begin{align}
+\pr{X=x}=\begin{cases}
+	\frac{1}{6}& x=1,2,3,4,5,6\\
+	0 & otherwise
+	\end{cases}
+\end{align}
+\brak{i}The probability that the outcome is a prime number is 
+\begin{align}
+\pr{X=2}+\pr{X=3}+\pr{X=5} \\
+\implies 3 \times \frac{1}{6}=\frac{1}{2}
+\end{align}
+
+\brak{ii}Probability of occurance of number between 2 and 6 is
+\begin{align}
+\pr{X=3}+\pr{X=4}+\pr{X=5}
+ \\
+\implies 3 \times \frac{1}{6}=\frac{1}{2}
+\end{align}
+\brak{iii}Probability of occurance of odd number is
+\begin{align}
+\pr{X=1}+\pr{X=3}+\pr{X=5}
+ \\
+\implies 3 \times \frac{1}{6}=\frac{1}{2}
+\end{align}
+
+The python code for the distribution is
+\begin{lstlisting}
+./prob/codes/dice123.py
+\end{lstlisting}
+The above code checks number of times each of the above events occur when the dice is thrown 100,000 times.
