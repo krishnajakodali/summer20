@@ -1,0 +1,35 @@
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+
+\item Complex number $\myvec{a\\b}$ is expressed as a matrix as 
+\begin{align}
+\myvec{a\\b} = \myvec{a & -b\\ b & a}
+\end{align}
+
+If complex number $\myvec{x\\y}$ is the multiplicative inverse of  $\myvec{a \\b}$, Then their product must be complex number $\myvec{1\\0}$
+\begin{align}
+\myvec{a & -b\\b & a}\myvec{x & -y\\y & x} = \myvec{1 & 0\\ 0 & 1}
+\\
+\implies \myvec{ax-by & -\brak{bx+ay}\\ bx+ay & ax-by} = \myvec{1 & 0\\ 0 & 1} 
+\\
+\implies ax-by=1
+\label{eq:comp1}
+\\
+bx+ay=0
+\label{eq:comp2}
+\end{align}
+From equations \ref{eq:comp1} and \ref{eq:comp2}
+\begin {align}
+ \myvec{a&-b\\b&a}\myvec{x\\y}=\myvec{1\\0}
+\\
+\myvec{x\\y}=\myvec{1\\0}{\myvec{a&-b\\b&a}}^{-1}
+\label{eq:comp_inv}
+\end{align}
+Using \ref{eq:comp_inv} The multiplicative inverse of complex number $\myvec{2\\-3}$ is $\myvec{0.15384615\\0.23076923}$
+\newline
+The python code for above problem is
+\begin{lstlisting}
+codes/line/comp/comp.py
+\end{lstlisting}
+\end{enumerate}
