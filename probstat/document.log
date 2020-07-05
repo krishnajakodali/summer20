@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.28)  28 JUN 2020 22:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.28)  5 JUL 2020 22:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1683,38 +1683,265 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7])
 (./prob/chapters/exer130/problem.tex) (./prob/chapters/exer130/solution.tex)
-[8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 384.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 384.
+(./stat/chapters/exer32/problem.tex (./stat/tables/exer32/sulphur.tex))
+Underfull \hbox (badness 10000) in paragraph at lines 1--379
+
+ []
+
+(./stat/chapters/exer32/solution.tex (./stat/tables/exer32/out32.tex))
+(./stat/chapters/exer33/problem.tex (./stat/tables/exer33/heads33.tex))
+Underfull \hbox (badness 10000) in paragraph at lines 1--385
+
+ []
+
+(./stat/chapters/exer33/solution.tex (./stat/tables/exer33/out33.tex) [8])
+(./stat/chapters/exer34/problem.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--391
+ \OT1/txr/m/it/12 2.1.5 Prob-lem 34: [][][] \OT1/txr/m/n/12 The value of $\OML/
+txmi/m/it/12 ^^Y$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--391
+\OT1/txr/m/n/12 upto 50 dec-i-mal places is given be-low:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--391
+
+ []
+
+(./stat/chapters/exer34/solution.tex (./stat/tables/exer34/inp34.tex
+\gnumericColF=\skip93
+\gnumericColG=\skip94
+\gnumericColH=\skip95
+\gnumericColI=\skip96
+\gnumericColJ=\skip97
+)
+(./stat/tables/exer34/out34.tex)) (./stat/chapters/exer35/problem.tex
+(./stat/tables/exer35/inp35.tex))
+Underfull \hbox (badness 1577) in paragraph at lines 1--397
+\OT1/txr/m/n/12 about the num-ber of hours they watched TV
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--397
+
+ []
+
+(./stat/chapters/exer35/solution.tex (./stat/tables/exer35/out35.tex) [9])
+(./stat/chapters/exer36/problem.tex (./stat/tables/exer36/inp36.tex))
+Underfull \hbox (badness 10000) in paragraph at lines 1--403
+
+ []
+
+(./stat/chapters/exer36/solution.tex (./stat/tables/exer36/out36.tex))
+(./stat/chapters/exer37/problem.tex (./stat/tables/exer37/femalefatality.tex)
+Underfull \hbox (badness 1748) in paragraph at lines 5--5
+[]\OT1/txr/m/n/12 TABLE XII: |Ill-ness and fa-tal-ity rate amongst
+ []
+
+)
+Underfull \hbox (badness 5741) in paragraph at lines 1--409
+ \OT1/txr/m/n/12 (i) Rep-re-sent the in-for-ma-tion given above
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--409
+
+ []
+
+(./stat/chapters/exer37/solution.tex
+Package epstopdf Info: Source file: <./stat/codes/pyfigs/exer37.eps>
+(epstopdf)                    date: 2020-07-05 15:29:39
+(epstopdf)                    size: 24329 bytes
+(epstopdf)             Output file: <./stat/codes/pyfigs/exer37-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2020-07-05 15:30:46
+(epstopdf)                    size: 13999 bytes
+(epstopdf)             Command: <repstopdf --outfile=./stat/codes/pyfigs/exer37
+-eps-converted-to.pdf ./stat/codes/pyfigs/exer37.eps>
+(epstopdf)             \includegraphics on input line 4.
+Package epstopdf Info: Output file is already uptodate.
+<./stat/codes/pyfigs/exer37-eps-converted-to.pdf, id=572, 462.52798pt x 346.896
+01pt>
+File: ./stat/codes/pyfigs/exer37-eps-converted-to.pdf Graphic file (type pdf)
+<use ./stat/codes/pyfigs/exer37-eps-converted-to.pdf>
+Package pdftex.def Info: ./stat/codes/pyfigs/exer37-eps-converted-to.pdf  used 
+on input line 4.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+ [10]) (./stat/chapters/exer38/problem.tex
+(./stat/tables/exer38/inp38.tex))
+Underfull \hbox (badness 10000) in paragraph at lines 1--415
+
+ []
+
+(./stat/chapters/exer38/solution.tex
+Package epstopdf Info: Source file: <./stat/codes/pyfigs/exer38.eps>
+(epstopdf)                    date: 2020-07-05 16:00:36
+(epstopdf)                    size: 29217 bytes
+(epstopdf)             Output file: <./stat/codes/pyfigs/exer38-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2020-07-05 16:07:28
+(epstopdf)                    size: 16898 bytes
+(epstopdf)             Command: <repstopdf --outfile=./stat/codes/pyfigs/exer38
+-eps-converted-to.pdf ./stat/codes/pyfigs/exer38.eps>
+(epstopdf)             \includegraphics on input line 4.
+Package epstopdf Info: Output file is already uptodate.
+<./stat/codes/pyfigs/exer38-eps-converted-to.pdf, id=589, 462.52798pt x 346.896
+01pt>
+File: ./stat/codes/pyfigs/exer38-eps-converted-to.pdf Graphic file (type pdf)
+<use ./stat/codes/pyfigs/exer38-eps-converted-to.pdf>
+Package pdftex.def Info: ./stat/codes/pyfigs/exer38-eps-converted-to.pdf  used 
+on input line 4.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+) (./stat/chapters/exer39/problem.tex
+(./stat/tables/exer39/inp39.tex))
+Underfull \hbox (badness 2662) in paragraph at lines 1--421
+\OT1/txr/m/n/12 (ii) Which po-lit-i-cal party won the max-i-mum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--421
+
+ []
+
+(./stat/chapters/exer39/solution.tex
+Package epstopdf Info: Source file: <./stat/codes/pyfigs/exer39.eps>
+(epstopdf)                    date: 2020-07-05 17:46:26
+(epstopdf)                    size: 23464 bytes
+(epstopdf)             Output file: <./stat/codes/pyfigs/exer39-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2020-07-05 17:49:17
+(epstopdf)                    size: 15179 bytes
+(epstopdf)             Command: <repstopdf --outfile=./stat/codes/pyfigs/exer39
+-eps-converted-to.pdf ./stat/codes/pyfigs/exer39.eps>
+(epstopdf)             \includegraphics on input line 4.
+Package epstopdf Info: Output file is already uptodate.
+<./stat/codes/pyfigs/exer39-eps-converted-to.pdf, id=591, 462.52798pt x 346.896
+01pt>
+File: ./stat/codes/pyfigs/exer39-eps-converted-to.pdf Graphic file (type pdf)
+<use ./stat/codes/pyfigs/exer39-eps-converted-to.pdf>
+Package pdftex.def Info: ./stat/codes/pyfigs/exer39-eps-converted-to.pdf  used 
+on input line 4.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+) (./stat/chapters/exer40/problem.tex
+(./stat/tables/exer40/inp40.tex))
+Underfull \hbox (badness 10000) in paragraph at lines 1--427
+\OT1/txr/m/n/12 (ii) Is there any other suit-able graph-i-cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--427
+
+ []
+
+[11 <./stat/codes/pyfigs/exer37-eps-converted-to.pdf> <./stat/codes/pyfigs/exer
+38-eps-converted-to.pdf>] (./stat/chapters/exer40/solution.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+(./stat/tables/exer40/cont40.tex)
+Package epstopdf Info: Source file: <./stat/codes/pyfigs/exer40.eps>
+(epstopdf)                    date: 2020-07-05 21:49:30
+(epstopdf)                    size: 20208 bytes
+(epstopdf)             Output file: <./stat/codes/pyfigs/exer40-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2020-07-05 22:32:13
+(epstopdf)                    size: 12656 bytes
+(epstopdf)             Command: <repstopdf --outfile=./stat/codes/pyfigs/exer40
+-eps-converted-to.pdf ./stat/codes/pyfigs/exer40.eps>
+(epstopdf)             \includegraphics on input line 15.
+Package epstopdf Info: Output file is already uptodate.
+<./stat/codes/pyfigs/exer40-eps-converted-to.pdf, id=688, 462.52798pt x 346.896
+01pt>
+File: ./stat/codes/pyfigs/exer40-eps-converted-to.pdf Graphic file (type pdf)
+<use ./stat/codes/pyfigs/exer40-eps-converted-to.pdf>
+Package pdftex.def Info: ./stat/codes/pyfigs/exer40-eps-converted-to.pdf  used 
+on input line 15.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 23--429
+
+ []
+
+(./stat/chapters/exer41/problem.tex (./stat/tables/exer41/inp41.tex))
+Underfull \hbox (badness 10000) in paragraph at lines 1--433
+
+ []
+
+(./stat/chapters/exer41/solution.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+ \OT1/txr/m/it/12 2.1.20 So-lu-tion: [][][] \OT1/txr/m/n/12 (i)The data is al-r
+eady
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+\OT1/txr/m/n/12 con-tin-u-ous. The his-togram is cre-ated us-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+[12 <./stat/codes/pyfigs/exer39-eps-converted-to.pdf> <./stat/codes/pyfigs/exer
+40-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./stat/codes/pyfigs/exer41.eps>
+(epstopdf)                    date: 2020-07-05 22:28:36
+(epstopdf)                    size: 20307 bytes
+(epstopdf)             Output file: <./stat/codes/pyfigs/exer41-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2020-07-05 22:33:32
+(epstopdf)                    size: 12826 bytes
+(epstopdf)             Command: <repstopdf --outfile=./stat/codes/pyfigs/exer41
+-eps-converted-to.pdf ./stat/codes/pyfigs/exer41.eps>
+(epstopdf)             \includegraphics on input line 8.
+Package epstopdf Info: Output file is already uptodate.
+<./stat/codes/pyfigs/exer41-eps-converted-to.pdf, id=774, 462.52798pt x 346.896
+01pt>
+File: ./stat/codes/pyfigs/exer41-eps-converted-to.pdf Graphic file (type pdf)
+<use ./stat/codes/pyfigs/exer41-eps-converted-to.pdf>
+Package pdftex.def Info: ./stat/codes/pyfigs/exer41-eps-converted-to.pdf  used 
+on input line 8.
+(pdftex.def)             Requested size: 252.0pt x 189.00429pt.
+) [13
+
+ <./stat/codes/pyfigs/exer41-eps-converted-to.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 446.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 446.
  (./document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 384.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 384.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 446.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 446.
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: ED59838B638C1C3CFA455F98C75458B6;2805.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 384.
+(rerunfilecheck)             Checksum: CF93C8FE306D8E0B406570929BB66611;4300.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 446.
  ) 
 Here is how much of TeX's memory you used:
- 40455 strings out of 481239
- 912217 string characters out of 5920377
- 1327215 words of memory out of 5000000
- 54574 multiletter control sequences out of 15000+600000
- 594728 words of font info for 151 fonts, out of 8000000 for 9000
+ 40752 strings out of 481239
+ 919693 string characters out of 5920377
+ 1339835 words of memory out of 5000000
+ 54684 multiletter control sequences out of 15000+600000
+ 596078 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,14n,91p,500b,1016s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
-fonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times
-/utmri8a.pfb>
-Output written on document.pdf (8 pages, 102135 bytes).
+e/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
+onts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on document.pdf (13 pages, 187525 bytes).
 PDF statistics:
- 537 PDF objects out of 1000 (max. 8388607)
- 496 compressed objects within 5 object streams
- 243 named destinations out of 1000 (max. 500000)
- 437 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 921 PDF objects out of 1000 (max. 8388607)
+ 702 compressed objects within 8 object streams
+ 313 named destinations out of 1000 (max. 500000)
+ 638 words of extra memory for PDF output out of 10000 (max. 10000000)
 
