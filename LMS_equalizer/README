@@ -1,4 +1,4 @@
-xlsx file functions_list contains the list of all functions and properties of object chan used in the code
+xlsx file functions_list contains the list of all functions and properties of channel object chan of MATLAB used in the code
 
 The folder contains the figures obtained on MATLAB when the code https://github.com/gadepall/phylayer/blob/master/codes/refs/LMS.m for LMS equalizer is run.
 channel is the plot of the resultant channel after filter(chan,Ak) is run
