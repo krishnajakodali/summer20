@@ -1,3 +1,4 @@
+LMS_equilizer_octave.m works on octave
 xlsx file functions_octave_availability has list if a function in functions_list is available in GNU octave or not.
 xlsx file functions_list contains the list of all functions and properties of channel object chan of MATLAB used in the code
 
