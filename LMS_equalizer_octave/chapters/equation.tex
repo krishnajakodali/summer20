@@ -1,0 +1,21 @@
+The multipath fading cahnnel is modelled as a linear finite impulse-reponse filter.
+\\
+Let $s_i$ denote the set of samples at the input to the channel, Then samples $Rk_i$ at the output of the channel are related to $s_i$ through:
+\begin{align}
+Rk_i=\sum_{n=-N_1}^{N2}s_{i-n}g_n
+\end{align}
+Where $g_n$ is the set of tap weights given by:
+\begin{align}
+g_n = \sum_{k=1}^{k}a_k \sinc{\brak{\frac{\tau_k}{t_s}-n}}
+\\
+-N_1 \leq n \leq N_2
+\end{align}
+In the equations:
+\\$t_s$ is the input sample period to the channel
+\\$\tau_k$ where $1\leq k \leq K$is the set of path delays(pd).
+\\K is the total number of paths in the multiple fading channel.Here, K=5 
+\\$a_k$ where $1\leq k \leq K$is the set of complex path gains(pg).
+$N_1$ and $N_2$ are chosen so that $g_n$ is small when n is less than$-N_1$ and greater than $N_2$.In the given code,
+\begin{align}
+N_1=N_2=800
+\end{align}

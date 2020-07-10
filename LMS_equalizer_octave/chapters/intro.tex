@@ -1,0 +1,31 @@
+Rician fading channel is one of the useful models of real-world phenomena in wireless communication.These phenomena include multipath scattering effects , time dispesion and doppler shifts that arise from relative motion between transmitter and reciever.
+\\
+A channel filter applies path gains to the input signal.
+Path gains are configured based on settings chosen in fading channel object or block which are used to model fading channels.
+\\
+The path gains are found using the matlab function ricianchan by running the code 
+\begin{lstlisting}
+./codes/LMS_equalizer_MATLAB.m
+\end{lstlisting}
+The channel specifications considered in the above code are as follows:
+\begin{align}
+t_s=\frac{1}{185000}
+\\
+fd=0.1
+\\
+k=0.87/0.13
+\\
+\tau=\myvec{0.0& 0.2& 0.4 &0.6 &0.8 }\times 10^{-5}
+\\
+pdb = \myvec{0& -2& -10 &-20 & -22}
+\\
+fdLos=0.7*fd=0.07
+\end{align}
+Where $t_s$ is the sample time of the input signal, fd is the maximum doppler shift in hertz, k is the rician K-factor in linear scale,fdLos is the doppler shift of line of sight component.
+\\
+$\tau$ is vector of path delays specified in seconds and pdb is the vector of average path gains specified in dB.
+
+The path gains thus found are stored in the file
+\begin{lstlisting}
+./codes/path_gains.dat
+\end{lstlisting}
