@@ -1,0 +1,10 @@
+LMS_equilizer_octave.m works on octave
+xlsx file functions_octave_availability has list if a function in functions_list is available in GNU octave or not.
+xlsx file functions_list contains the list of all functions and properties of channel object chan of MATLAB used in the code
+
+The folder contains the figures obtained on MATLAB when the code https://github.com/gadepall/phylayer/blob/master/codes/refs/LMS.m for LMS equalizer is run.
+channel is the plot of the resultant channel after filter(chan,Ak) is run
+Recieved is the plot of the recieved constellation
+LMS_MSE are the plots of LMS equalized constellation and MSE equalized constellation
+8PSK is the plot of he 8 symbols in array a. 
+
