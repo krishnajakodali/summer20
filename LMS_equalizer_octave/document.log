@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.28)  10 JUL 2020 20:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.28)  12 JUL 2020 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1608,45 +1608,55 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 1
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 ))
-(./chapters/equation.tex) (./chapters/result.tex
-<./figs/psk.PNG, id=43, 371.88937pt x 307.90031pt>
+(./chapters/equation.tex) (./chapters/par.tex (./tables/lms_par.tex
+\gnumericTableWidth=\skip85
+\gnumericTableWidthComplete=\skip86
+\gnumericMultiRowLength=\skip87
+\gnumericColA=\skip88
+\gnumericColB=\skip89
+\gnumericColC=\skip90
+))
+(./chapters/result.tex [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+<./figs/psk.PNG, id=86, 371.88937pt x 307.90031pt>
 File: ./figs/psk.PNG Graphic file (type png)
 <use ./figs/psk.PNG>
 Package pdftex.def Info: ./figs/psk.PNG  used on input line 10.
 (pdftex.def)             Requested size: 252.0pt x 208.64592pt.
-<./figs/constellation.PNG, id=45, 355.3275pt x 286.82156pt>
+<./figs/constellation.PNG, id=88, 355.3275pt x 286.82156pt>
 File: ./figs/constellation.PNG Graphic file (type png)
 <use ./figs/constellation.PNG>
 Package pdftex.def Info: ./figs/constellation.PNG  used on input line 17.
 (pdftex.def)             Requested size: 252.0pt x 203.42151pt.
-<./figs/lms.PNG, id=46, 398.23781pt x 315.42844pt>
+<./figs/lms.PNG, id=89, 398.23781pt x 315.42844pt>
 File: ./figs/lms.PNG Graphic file (type png)
 <use ./figs/lms.PNG>
 Package pdftex.def Info: ./figs/lms.PNG  used on input line 24.
 (pdftex.def)             Requested size: 252.0pt x 199.59692pt.
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+)
+[2 <./figs/psk.PNG> <./figs/constellation.PNG> <./figs/lms.PNG>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 269.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
 
-
-] [2 <./figs/psk.PNG> <./figs/constellation.PNG> <./figs/lms.PNG>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 265.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
- (./document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 265.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
+(./document.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 269.
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: C960176DAD733CEB8961C9AC3DA12187;133.
+(rerunfilecheck)             Checksum: 08D60AFC678FDE533D172C3374292C80;178.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 265.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 269.
  ) 
 Here is how much of TeX's memory you used:
- 40075 strings out of 481239
- 903797 string characters out of 5920377
- 1320933 words of memory out of 5000000
- 54492 multiletter control sequences out of 15000+600000
- 595806 words of font info for 152 fonts, out of 8000000 for 9000
+ 40110 strings out of 481239
+ 904286 string characters out of 5920377
+ 1328990 words of memory out of 5000000
+ 54512 multiletter control sequences out of 15000+600000
+ 598492 words of font info for 156 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,13n,91p,500b,1080s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1655,14 +1665,15 @@ e/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texlive/texmf-dist
 1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
 onts/rtxsc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
-utmri8a.pfb>
-Output written on document.pdf (2 pages, 186809 bytes).
+re/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on document.pdf (2 pages, 193375 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
- 29 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
