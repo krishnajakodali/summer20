@@ -1,3 +1,4 @@
+LMS_octave_conv.m---------->optimized code using conv function
 LMS_equalizer_octave.m ----> code implemented in octave
 LMS_equalizer_MATLAB.m----->code implemented in MATLAB to find pathgains using ricianchan function available only in MATLAB
 path_gains.dat-------------->file containing path gains that is used in octave file LMS_equalizer_octave.m
